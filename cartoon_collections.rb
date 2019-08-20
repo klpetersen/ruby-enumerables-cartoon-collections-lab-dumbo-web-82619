@@ -19,7 +19,7 @@ def find_the_cheese(array)
     if array.include?("#{cheese_types[i]}") == true
       cheese_found[] << cheese_types[i]
     else 
-      nil
+      cheese_found[] << nil
     end
     i += 1
   end
