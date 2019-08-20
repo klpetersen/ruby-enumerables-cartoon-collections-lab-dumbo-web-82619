@@ -13,6 +13,6 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.map(array.include?("#{cheese_types[i]}")
+  cheese_types.map{array.include?("#{cheese_types[i]}"}
     
 end
