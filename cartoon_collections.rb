@@ -17,6 +17,6 @@ def find_the_cheese(array)
   while i < cheese_types.length do
     if array.include?("#{cheese_types[i]}") == true
       return true
-      
-    
+    end
+  end
 end
